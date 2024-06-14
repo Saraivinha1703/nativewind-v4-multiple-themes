@@ -9,10 +9,15 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@types/react": "~18.2.79",
     "expo": "~51.0.14",
     "expo-status-bar": "~1.12.1",
+    "nativewind": "^4.0.1",
     "react": "18.2.0",
-    "react-native": "0.74.2"
+    "react-native": "0.74.2",
+    "react-native-reanimated": "~3.10.1",
+    "tailwindcss": "^3.4.4",
+    "typescript": "~5.3.3"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"
