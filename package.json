@@ -9,7 +9,9 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.23.1",
     "@types/react": "~18.2.79",
+    "clsx": "^2.1.1",
     "expo": "~51.0.14",
     "expo-status-bar": "~1.12.1",
     "nativewind": "^4.0.1",
