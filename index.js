@@ -1,3 +1,6 @@
+import "tailwindcss/base";
+import "tailwindcss/components";
+import "tailwindcss/utilities";
 import { registerRootComponent } from "expo";
 
 import App from "./src/App";
