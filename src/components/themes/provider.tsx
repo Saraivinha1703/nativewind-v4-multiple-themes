@@ -1,11 +1,7 @@
 import { Appearance, View, ViewProps } from "react-native";
 import { memo, useCallback, useEffect, useMemo, useState } from "react";
 import { ThemesVariants, themes, themesVariables } from ".";
-import {
-  SystemThemesVariants,
-  ThemeContext,
-  ThemesVariables,
-} from "./context";
+import { SystemThemesVariants, ThemeContext, ThemesVariables } from "./context";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import { StatusBar } from "expo-status-bar";
 
@@ -109,11 +105,11 @@ const ThemeProvider = ({ children, className, ...props }: ThemeProps) => {
         setSystemTheme(
           Appearance.getColorScheme() === "light" ? "light" : "dark"
         );
-        await AsyncStorage.setItem("mayom-theme", "system");
+        await AsyncStorage.setItem("your-app-theme", "system");
       } else {
         setSystemEnabled(false);
         setTheme(newTheme);
-        await AsyncStorage.setItem("mayom-theme", newTheme);
+        await AsyncStorage.setItem("your-app-theme", newTheme);
       }
     },
     [setSystemEnabled, setTheme, setSystemTheme]
