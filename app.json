@@ -3,6 +3,12 @@
     "name": "nativewind-v4-multiple-themes",
     "slug": "nativewind-v4-multiple-themes",
     "version": "1.0.0",
-    "userInterfaceStyle": "automatic"
+    "userInterfaceStyle": "automatic",
+    "icon": "./assets/images/icon.png",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    }
   }
 }
