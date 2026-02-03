@@ -15,7 +15,7 @@ export function Home() {
   const [visible, setVisible] = useState<boolean>(false);
 
   return (
-    <View className="flex-1 items-center justify-center bg-background">
+    <View className="h-full items-center justify-center bg-background">
       <Text className="absolute top-14 text-4xl font-semibold text-primary text-center p-2">
         Multiple Themes with Expo and Nativewind v4
       </Text>

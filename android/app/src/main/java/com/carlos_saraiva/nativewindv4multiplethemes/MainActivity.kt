@@ -1,4 +1,4 @@
-package com.nativewindv4multiplethemes
+package com.carlos_saraiva.nativewindv4multiplethemes
 
 import android.os.Build
 import android.os.Bundle

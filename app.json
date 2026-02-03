@@ -3,6 +3,9 @@
     "name": "nativewind-v4-multiple-themes",
     "slug": "nativewind-v4-multiple-themes",
     "version": "1.0.0",
-    "userInterfaceStyle": "automatic"
+    "userInterfaceStyle": "automatic",
+    "android": {
+      "package": "com.carlos_saraiva.nativewindv4multiplethemes"
+    }
   }
 }
